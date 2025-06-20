@@ -1,12 +1,5 @@
 
-
-// interface T {
-//   name: string;
-//   age: number;
-//   email: string;
-// }
-
-function printUserInfo<T>(name: T, age: T, email?: T): void {
+function printUserInfo(name: string, age: number, email?: string): void {
   console.log("Name:", name);
   console.log("Age:", age);
   if (email) {
@@ -14,5 +7,7 @@ function printUserInfo<T>(name: T, age: T, email?: T): void {
   }
 }
 
-printUserInfo<string | number>("Alice", 30);
-printUserInfo<string | number>("Bob", 25, "bob@mail.com");
+printUserInfo("Alice", 30);
+printUserInfo("Bob", 25, "bob@mail.com");
+
+
