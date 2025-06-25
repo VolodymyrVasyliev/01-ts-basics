@@ -17,9 +17,3 @@ fetchPosts().then((posts) => {
   console.log(posts[0].title);
 });
 
-/*
-Завдання:
-
-
-3. Типізуй axios.get, щоб вказати, що API повертає масив постів.
-*/

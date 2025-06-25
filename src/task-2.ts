@@ -1,4 +1,3 @@
-
 interface Product {
   readonly id: number;
   title: string;
